@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="">
+    <link rel="stylesheet" href="blogcss.css">
+   
+    <title>Mindful Haven</title>
+    <link rel="icon" type="image/x-icon" href="images/icons8-health-30.png">
+    
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <!-- <img src="images/logo.png" alt="" style="width: 300px;"> -->
+           <h5 style="color:rgb(255 251 235); font-size: 40px;">Mindful Heaven</h5>
+            <div>
+                <a href="index.html" class="navpro">Home</a>
+                <a href="#" class="navpro">Relaxing Sounds</a>
+                <a href="edu.html" class="navpro">Educational Resources</a>
+
+                <a href="blog.html" class="navpro">Blog</a>
+                <button>Sign in</button>
+            </div>
+        </nav>
+    </div>
+    <h3 style="font-size: 40px; justify-content: center; display: flex; text-decoration:underline; margin-top: 20px;">Personal Blogs</h3>
+
+
+    
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn">&times;</div>
+            <h1>Finding Peace Amidst Chaos</h1>
+             <h4></h4>
+            <p> Sarah struggled with crippling anxiety that affected every aspect of her life. She found it difficult to focus at work, avoided social gatherings, and often felt overwhelmed by everyday tasks. Determined to take control of her life, Sarah sought help from a therapist who introduced her to cognitive-behavioral therapy (CBT). Through CBT, Sarah learned to identify and challenge her negative thought patterns, gradually replacing them with more positive and realistic ones. She also started practicing mindfulness meditation, which helped her stay present and calm. Over time, Sarah's anxiety lessened, and she began to enjoy life again. Today, she shares her journey to inspire others, reminding them that seeking help is a sign of strength, not weakness</p>
+        </div>
+    </div>
+
+
+    <div class="popup" id="popup-2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn">&times;</div>
+            <h1>Rising from the Shadows</h1>
+             <h4></h4>
+            <p>John had always been known as the life of the party, but behind his cheerful facade, he was battling severe depression. The weight of his feelings made it difficult for him to get out of bed in the morning, and he felt hopeless about the future. After a particularly tough week, John reached out to a close friend who encouraged him to see a psychiatrist. With professional help, John was diagnosed with major depressive disorder and started a treatment plan that included medication and therapy. He also joined a support group where he met others who understood his struggles. Through consistent treatment and the support of his loved ones, John began to see improvements. He now uses his experience to advocate for mental health awareness and encourages others to seek help when they need it.</p>
+    
+        </div>
+    </div>
+
+
+    <div class="popup" id="popup-3">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn">&times;</div>
+            <h1>Embracing My True Self</h1>
+             <h4></h4>
+            <p>Emma's battle with an eating disorder began in her teenage years. Struggling with body image issues and societal pressure, she developed unhealthy eating habits that soon spiraled out of control. Emma felt isolated and ashamed, believing that she was alone in her struggle. It wasn't until she confided in a trusted teacher that she began her journey to recovery. With the teacher's help, Emma connected with a specialized therapist who helped her address the underlying issues contributing to her disorder. She also participated in group therapy, where she found comfort and solidarity in sharing her story with others facing similar challenges. Through hard work and dedication, Emma gradually learned to embrace her true self and develop a healthier relationship with food. She now speaks openly about her journey, hoping to break the stigma surrounding eating disorders and offer hope to those still struggling.</p>    
+        </div>
+    </div>
+    
+    <div class="centerses">
+        <div class="info" style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div class="container" style="border: 2px solid white; display: flex; margin-top: 50px; width: 800px; justify-content: center;">
+                <img src="images/Emma9462_.jpg" alt="" style="display: flex; width: 220px;">
+                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                    <h1 onclick="togglePopup('popup-1')">Finding Peace Amidst Chaos</h1>
+                    <p style="display: flex; margin-left: 20px;">Sarah struggled with crippling anxiety, which affected her work and social life. With the help of cognitive-behavioral therapy and mindfulness meditation, she learned to manage her anxiety and regain control over her life. Her journey is a testament to the power of seeking help and making positive changes.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="info" style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div class="container" style="border: 2px solid white; display: flex; margin-top: 50px; width: 800px; justify-content: center;">
+                <img src="images/john.jpeg" alt="" style="display: flex; width: 220px;">
+                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                    <h1 onclick="togglePopup('popup-2')">Rising from the Shadows</h1>
+                    <p style="display: flex; margin-left: 20px;">John battled severe depression, hiding his pain behind a cheerful facade. Through professional help and support from loved ones, he managed to overcome his depression. John's story highlights the importance of reaching out and the effectiveness of therapy and support groups.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="centerses">
+            <div class="info" style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div class="container" style="border: 2px solid white; display: flex; margin-top: 50px; width: 800px; justify-content: center;">
+                    <img src="images/pic11.jpeg" alt="" style="display: flex; width: 220px;">
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                        <h1 onclick="togglePopup('popup-3')">Embracing My True Self</h1>
+                        <p style="display: flex; margin-left: 20px;">Emma faced an eating disorder that took control of her teenage years. With the support of a trusted teacher and specialized therapy, she began her recovery journey. Emma's experience underscores the significance of addressing underlying issues and finding solidarity in shared experiences.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <div id="popup-1" class="popup">
+        <div class="overlay" onclick="togglePopup('popup-1')"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('popup-1')">&times;</div>
+            <h2>Finding Peace Amidst Chaos</h2>
+            <p>Details about Sarah's journey...</p>
+        </div>
+    </div>
+    
+    <div id="popup-2" class="popup">
+        <div class="overlay" onclick="togglePopup('popup-2')"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('popup-2')">&times;</div>
+            <h2>Rising from the Shadows</h2>
+            <p>Details about John's journey...</p>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
